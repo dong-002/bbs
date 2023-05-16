@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(243,243,243);
+}
+:root {
+  --link: #409eff;
+}
+a {
+  text-decoration: none;
+  color: #409eff;
+}
+.a-link {
+  color: #409eff;
+  cursor: pointer;
+}
+.hljs {
+  background: #f4f4f4 !important;
+}
+.container-body {
+  margin: 0 auto;
+  padding-top: 5px;
+}
+::-webkit-scrollbar {
+  //整个滚动条
+  width: 10px;
+  background-color: #f5f5f5;
+}
+::-webkit-scrollbar-track {
+  // 轨道
+  background-color: #e3e1e1;
+}
+::-webkit-scrollbar-thumb {
+  // 里面可以拖动的那个
+  border-radius: 10px;
+  height: 100px;
+  background-color: rgb(171, 171, 171);
+}
